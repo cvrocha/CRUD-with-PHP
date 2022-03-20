@@ -10,10 +10,10 @@ Desenvolvimento de um simples projeto CRUD (Sistema de uma Biblioteca) utilizand
 
 ## Configuração do Projeto:
 
-- Baixar o XAMPP em seu sistema operacional **https://www.apachefriends.org/pt_br/index.html**
-- Instale e coloque o projeto dentro desta árvore de arquivos C:\XAMPP/htdocs (isso vai depender de onde foi instalado).
-- Executar o XAMPP e iniciar o apache2 e mySQL.
-- Executar a query banco-de-dados.sql ou importar o arquivo no phpMyAdmin para criar a table necessária.
+- Baixar o **XAMPP** em seu sistema operacional **https://www.apachefriends.org/pt_br/index.html**
+- Instale e coloque o projeto dentro desta árvore de arquivos **_C:\XAMPP/htdocs_** (isso vai depender de onde foi instalado).
+- Executar o **XAMPP** e iniciar o apache2 e mySQL.
+- Executar a query **banco-de-dados.sql** ou importar o arquivo no **_phpMyAdmin_** para criar a table necessária.
 <br>
 
 ```
@@ -85,7 +85,7 @@ CREATE TABLE aluno
 
 - Acesse em seu navegador e digite **http://localhost**
 - Entre no arquivo do projeto.
-- O sistema deverá estar rodando conforme o gif a baixo.
+- O sistema deverá estar rodando conforme o **_gif_** abaixo.
 
 
 <img height="500" width="1280" align="center" justify="center" src="https://user-images.githubusercontent.com/62439381/159144524-92f4d84e-f73e-4a7d-ac07-0b7e0b17b3a6.gif">
