@@ -88,6 +88,7 @@ CREATE TABLE aluno
 - O sistema deverá estar rodando conforme o **_gif_** abaixo.
 
 
-<img height="500" width="1280" align="center" justify="center" src="https://user-images.githubusercontent.com/62439381/159144524-92f4d84e-f73e-4a7d-ac07-0b7e0b17b3a6.gif">
+![localhost_projetos_projeto%20final_](https://user-images.githubusercontent.com/62439381/185649719-4e89b071-e62f-4c96-8835-44ddbe355e0e.png)
+
 
 #    
