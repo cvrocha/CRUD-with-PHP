@@ -13,7 +13,7 @@ Desenvolvimento de um simples projeto CRUD (Sistema de uma Biblioteca) utilizand
 - Baixar o **XAMPP** em seu sistema operacional **https://www.apachefriends.org/pt_br/index.html**
 - Instale e coloque o projeto dentro desta árvore de arquivos **_C:\XAMPP/htdocs_** (isso vai depender de onde foi instalado).
 - Executar o **XAMPP** e iniciar o apache2 e mySQL.
-- Executar a query **banco-de-dados.sql** ou importar o arquivo no **_phpMyAdmin_** para criar a table necessária.
+- Criar um banco chamado **biblioteca2122**, executar a query **banco-de-dados.sql** ou importar o arquivo no **_phpMyAdmin_** para criar a table necessária.
 <br>
 
 ```
