@@ -41,25 +41,25 @@
   <div class="l-navbar" id="nav-bar">
     <nav class="nav">
       <div id="tudo">
-        <a href="#" class="nav_link active">
+        <div class="nav_logo">
           <i class="bx bx-book-open nav_icon"></i>
           <span class="nav_logo-name">Biblioteca</span>
-        </a>
+        </div>
         <div class="nav_list">
           <a href="index.php" class="nav_link active">
             <i class="bx bx-home nav_icon"></i>
             <span class="nav_name">Início</span>
           </a>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bxs-city nav_icon"></i>
-            <span class="nav_name">Bibliotecas </span>
+            <span class="nav_name">Bibliotecas <span class="arrow"></span></span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="bx bx-list-ul" class="dropdown-item" href="?page=biblioteca-listar"> Listar</a></li>
             <li><a class="bx bx-plus-circle" class="dropdown-item" href="?page=biblioteca-cadastrar"> Cadastrar</a></li>
           </ul>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bx-user-voice nav_icon"></i>
             <span class="nav_name">Atendentes</span>
@@ -68,7 +68,7 @@
             <li><a class="bx bx-list-ul" class="dropdown-item" href="?page=atendente-listar"> Listar</a></li>
             <li><a class="bx bx-plus-circle" class="dropdown-item" href="?page=atendente-cadastrar"> Cadastrar</a></li>
           </ul>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bx-category nav_icon"></i>
             <span class="nav_name">Categorias</span>
@@ -77,7 +77,7 @@
             <li><a class="bx bx-list-ul" class="dropdown-item" href="?page=categoria-listar"> Listar</a></li>
             <li><a class="bx bx-plus-circle" class="dropdown-item" href="?page=categoria-cadastrar"> Cadastrar</a></li>
           </ul>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bx-book-alt nav_icon"></i>
             <span class="nav_name"> Livros</span>
@@ -86,7 +86,7 @@
             <li><a class="bx bx-list-ul" class="dropdown-item" href="?page=livro-listar"> Listar</a></li>
             <li><a class="bx bx-plus-circle" class="dropdown-item" href="?page=livro-cadastrar"> Cadastrar</a></li>
           </ul>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bx-user-circle nav_icon"></i>
             <span class="nav_name">Usúarios</span>
@@ -95,7 +95,7 @@
             <li><a class="bx bx-list-ul" class="dropdown-item" href="?page=usuario-listar"> Listar</a></li>
             <li><a class="bx bx-plus-circle" class="dropdown-item" href="?page=usuario-cadastrar"> Cadastrar</a></li>
           </ul>
-          <a class="nav_link active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          <a class="nav_link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bx bx-calendar nav_icon"></i>
             <span class="nav_name">Reservas</span>
@@ -106,7 +106,7 @@
           </ul>
         </div>
       </div>
-      <a href="#" class="nav_link active">
+      <a href="#" class="nav_link">
         <i class="bx bx-log-out nav_icon"></i>
         <span class="nav_name">Sair</span>
       </a>
